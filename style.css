@@ -1,27 +1,7 @@
-        li {
-            color: indianred;
-        }
-        p {
-            background-color: rgba(240, 230, 140, 0.418);
-            width: 500px;
-        }
-        #short {
-            font-size: larger;
-            color: blue;
-            font-weight: bolder;
-        }
-        .player {
-            text-align: right;
-        }
-        .red {
-            color: red;
-        }
-        .yellow {
-            text-decoration: underline;
-        }
-        .red, .yellow {
-            font-size: 18px;
-        }
-        input[type="password"] {
-            color: red;
-        }
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
