@@ -1,0 +1,14 @@
+/* Auto */
+.container {
+    background-color: rgb(255, 248, 211);
+}
+.content {
+    background-color: aqua;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px 50px;
+    text-align: justify;
+}
+::selection {
+  background-color: rgba(3, 196, 12, 0.288);
+}
