@@ -1,14 +1,71 @@
-/* Auto */
+/* Common */
 .container {
-    background-color: rgb(255, 248, 211);
+    background-color: blanchedalmond;
+    padding: 20px 0;
 }
 .content {
-    background-color: aqua;
-    max-width: 1140px;
+    background-color: rgb(154, 233, 233);
     margin: 0 auto;
     padding: 40px 50px;
     text-align: justify;
 }
-::selection {
-  background-color: rgba(3, 196, 12, 0.288);
+/* Home Section */
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: rgb(0, 0, 0);
+}
+.home .content {
+    max-width: 1140px;
+}
+.home ::selection {
+  background-color: rgba(25, 226, 199, 0.288);
+}
+
+/* Table  Section*/
+.table table {
+    border-collapse: collapse;
+}
+.table td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+/* Flex Section */
+.flex .container {
+     display: flex;
+}
+.flex .container div{
+    border: 1px solid saddlebrown;
+    height: 100px;
+    width: 200px;
+    font-size: 3em;
+}
+.box {
+    border: 1px solid saddlebrown;
+    height: 150px;
+    width: 150px;
+    font-size: 4em;
+}
+.box-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Center Section */
+
+.center .content {
+    width: 500px;
+    height: 300px;
 }
